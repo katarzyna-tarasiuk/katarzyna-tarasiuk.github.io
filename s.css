@@ -4,7 +4,7 @@ body {background: url('bg.png') repeat 0 0 #fafafa; min-height: 400px}
 h1,h2,h3{font-family:'Lobster',Georgia,"Times New Roman",Times,serif}
 .cnt {width: 960px; margin: 0 auto}
 .hdr {overflow: auto; position: fixed; top: 0; left: 0;width: 100%; background: url('bg.png') repeat 0 0 #fafafa;}
-.hdr .cnt {border-bottom: 1px solid #dadada; padding: 12px 0 ; overflow: auto; margin-bottom: 0px}
+.hdr .cnt {border-bottom: 1px solid #dadada; padding: 12px 0 6px; overflow: auto; margin-bottom: 0px}
 .hdr h1{float:right;font:36px 'Lobster Two',Georgia,"Times New Roman",Times,serif; color: #708090}
 #hm {margin-top:76px;}
 .abt {margin: 15px 0; overflow: auto;padding-top:10px}
