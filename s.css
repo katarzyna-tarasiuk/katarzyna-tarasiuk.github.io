@@ -1,0 +1,46 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, deails, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } /* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; } body { line-height: 1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; } table { border-collapse: collapse; border-spacing: 0; }
+
+body {background: url('bg.png') repeat 0 0 #fafafa; min-height: 400px}
+h1,h2,h3{font-family:'Lobster',Georgia,"Times New Roman",Times,serif}
+.cnt {width: 960px; margin: 0 auto}
+.hdr {overflow: auto; position: fixed; top: 0; left: 0;width: 100%; background: url('bg.png') repeat 0 0 #fafafa;}
+.hdr .cnt {border-bottom: 1px solid #dadada; padding: 12px 0 ; overflow: auto; margin-bottom: 10px}
+#hm {margin-top:76px;}
+.abt {margin: 15px 0; overflow: auto}
+.abt img {float: left; display; block;}
+.abt p {margin-left: 450px; text-transform: uppercase; line-height: 1.3em; font-size: 24px;font-family: "Liberation Sans", "dejavu sans", Arial, serif; font-weight: bold; color: #556}
+#rtcls{overflow:hidden;}
+.arts {display: block; width:300px; float: left}
+.arts li{ width: 280px; min-height: 50px; background: #fff; display: block; float:left; border: 1px solid #ddd; padding: 10px; border-radius: 2px; box-shadow: 0px 0px 4px #ccc; margin-bottom: 10px}
+.arts li h3{font-size: 18px; font-weight: bold; color: #C98A4B; }
+.arts li p.content {font-size: 12px; color: #444; line-height: 1.4em; margin-bottom: 10px}
+.arts li p.foot{color: #555; text-align: right; padding: 3px 0; border-top: 1px dashed #ddd; font-size:12px}
+.arts li p.foot a {color: #333}
+.arts li.a{}
+.arts li.b{}
+.arts li.c{}
+#menu{text-align:center}
+#menu li {list-style:none; float:left; display: block; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; margin: 0 5px}
+#menu li a {text-decoration: none; color: #fff; padding: 8px 14px; background: #DDCEFF; text-transform: uppercase; letter-spacing: -2px; font-weight: bold;font-size:20px; display: block}
+#menu li a:hover {background-color: #DBDB97}
+
+.clr{clear:both; overflow:auto}
+#cv {margin: 50px auto; background: #fff; padding: 30px;  color: #0a0a0a}
+#cv .photo {width: 80px; height: 80px; float: left}
+#cv h1{font-size: 32px; margin-left: 100px}
+#cv h2{font-size: 18px; margin-left: 100px;margin-top:5px}
+#cv .section {  padding-bottom: 10px; margin-bottom: 10px}
+#cv h3 {border-bottom: 1px solid #ccc;text-align:right;font-size: 24px;margin-bottom: 10px}
+#cv .history {font-size: 14px; font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif}
+#cv .history ul {}
+#cv .history ul li {padding: 5px 10px;overflow:auto}
+#cv .history ul.light li {padding: 0 0 10px 0}
+#cv strong{font-weight:bold; color: #444;width: 300px;display:block;float:left;text-align: right;margin-right: 10px}
+#cv .expl{float:left;width: 550px}
+
+#cntct {padding: 10px 0; border-top: 1px dashed #ccc}
+#cntct strong{}
+#cntct h2 {font-size: 24px;}
+#cntct p {}
+
+.rtl{  unicode-bidi: bidi-override; direction: rtl;}
