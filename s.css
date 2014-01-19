@@ -4,16 +4,17 @@ body {background: url('bg.png') repeat 0 0 #fafafa; min-height: 400px}
 h1,h2,h3{font-family:'Lobster',Georgia,"Times New Roman",Times,serif}
 .cnt {width: 960px; margin: 0 auto}
 .hdr {overflow: auto; position: fixed; top: 0; left: 0;width: 100%; background: url('bg.png') repeat 0 0 #fafafa;}
-.hdr .cnt {border-bottom: 1px solid #dadada; padding: 12px 0 ; overflow: auto; margin-bottom: 10px}
+.hdr .cnt {border-bottom: 1px solid #dadada; padding: 12px 0 ; overflow: auto; margin-bottom: 0px}
+.hdr h1{float:right;font:36px 'Lobster Two',Georgia,"Times New Roman",Times,serif; color: #708090}
 #hm {margin-top:76px;}
-.abt {margin: 15px 0; overflow: auto}
+.abt {margin: 15px 0; overflow: auto;padding-top:10px}
 .abt img {float: left; display; block;}
-.abt p {margin-left: 450px; text-transform: uppercase; line-height: 1.3em; font-size: 24px;font-family: "Liberation Sans", "dejavu sans", Arial, serif; font-weight: bold; color: #556}
+.abt p {margin-left: 450px;  line-height: 1.3em; font-size: 24px;font-family: Alegreya, "Liberation Sans", "dejavu sans", Arial, serif;  color: #556;text-align:justify}
 #rtcls{overflow:hidden;}
 .arts {display: block; width:300px; float: left}
 .arts li{ width: 280px; min-height: 50px; background: #fff; display: block; float:left; border: 1px solid #ddd; padding: 10px; border-radius: 2px; box-shadow: 0px 0px 4px #ccc; margin-bottom: 10px}
-.arts li h3{font-size: 18px; font-weight: bold; color: #C98A4B; }
-.arts li p.content {font-size: 12px; color: #444; line-height: 1.4em; margin-bottom: 10px}
+.arts li h3{font-size: 18px;  color: #C98A4B; margin-bottom: 15px;font-family: Alegreya}
+.arts li p.content {font-size: 12px; color: #444; line-height: 1.5em; margin-bottom: 10px; letter-spacing: 1px}
 .arts li p.foot{color: #555; text-align: right; padding: 3px 0; border-top: 1px dashed #ddd; font-size:12px}
 .arts li p.foot a {color: #333}
 .arts li.a{}
@@ -22,12 +23,13 @@ h1,h2,h3{font-family:'Lobster',Georgia,"Times New Roman",Times,serif}
 #menu{text-align:center}
 #menu li {list-style:none; float:left; display: block; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; margin: 0 5px}
 #menu li a {text-decoration: none; color: #fff; padding: 8px 14px; background: #DDCEFF; text-transform: uppercase; letter-spacing: -2px; font-weight: bold;font-size:20px; display: block}
-#menu li a:hover {background-color: #DBDB97}
+#menu li a:hover, #menu li a.active {background-color: #DBDB97}
 
 .clr{clear:both; overflow:auto}
-#cv {margin: 50px auto; background: #fff; padding: 30px;  color: #0a0a0a}
+#cv {margin: 50px auto; background: #fff; padding: 30px;  color: #0a0a0a; width: 900px; box-shadow: 0 0 25px #aaa}
 #cv .photo {width: 80px; height: 80px; float: left}
-#cv h1{font-size: 32px; margin-left: 100px}
+#cv h1,h2,h3{font-family: Alegreya, "Liberation Sans", "dejavu sans"}
+#cv h1{font-size: 32px; margin-left: 100px; font-family: Alegreya, "Liberation Sans", "dejavu sans"}
 #cv h2{font-size: 18px; margin-left: 100px;margin-top:5px}
 #cv .section {  padding-bottom: 10px; margin-bottom: 10px}
 #cv h3 {border-bottom: 1px solid #ccc;text-align:right;font-size: 24px;margin-bottom: 10px}
@@ -38,7 +40,7 @@ h1,h2,h3{font-family:'Lobster',Georgia,"Times New Roman",Times,serif}
 #cv strong{font-weight:bold; color: #444;width: 300px;display:block;float:left;text-align: right;margin-right: 10px}
 #cv .expl{float:left;width: 550px}
 
-#cntct {padding: 10px 0; border-top: 1px dashed #ccc}
+#cntct {}
 #cntct strong{}
 #cntct h2 {font-size: 24px;}
 #cntct p {}
